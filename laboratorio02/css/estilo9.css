@@ -1,0 +1,46 @@
+.contenedor{
+    width: 1280px;
+    height: 800px;
+    background-color: skyblue;
+}
+header{
+    width: 1280px;
+    height: 210px;
+    background-color: red;
+}
+nav{
+    width: 250px;
+    height: 540px;
+    background-color: green;
+}
+main{
+    width: 750px;
+    height: 540px;
+    background-color: orange;
+    margin-left: 250px;
+    margin-top: -540px;
+}
+.anuncio1{
+    width: 280px;
+    height: 180px;
+    background-color: purple;
+    margin-left: 1000px;
+    margin-top: -540px;
+}
+.anuncio2{
+    width: 280px;
+    height: 180px;
+    background-color: gray;
+    margin-left: 1000px;
+}
+.anuncio3{
+    width: 280px;
+    height: 180px;
+    background-color: brown;
+    margin-left: 1000px;
+}
+footer{
+    width: 1280px;
+    height: 50px;
+    background-color: yellow;
+}
