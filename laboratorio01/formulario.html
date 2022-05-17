@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRABAJANDO CON FORMULARIOS</title>
+</head>
+<body>
+    <h1>FORMULARIO DE REGISTRO DE ALUMNOS</h1>
+    <form action="receptorformulario.html"method="get"> 
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <label for="txtDNI"> Numero de Documento : </label> <input type="text" name="txtDni" id="txtDni" placeholder="Ingrese su DNI" required><br>
+            <label for="txtNom">Nombres : </label><input type="text" name="txtNom" id="txtNom" placeholder="Ingrese sus Nombres" required><br>
+            <label for="txtApe">Apellidos : </label><input type="text" name="txtApe" id="txtApe" placeholder="Ingrese sus Apellidos" required><br>
+            <label for="txtFec">Fecha de Nacimiento : </label><input type="date" name="txtFec" id="txtFec" placeholder="Ingrese su Fecha de Nacimiento" required><br>
+            <label for="txtDir">Direccion : </label><input type="text" name="txtDir" id="txtDir" placeholder="Ingrese su Direccion" required><br>
+            <label for="cbodistrito">Distrito : </label>
+            <select name="cbodistrito" id="cbodistrito" required>
+                <option value="0">Seleccione un Distrito</option>
+                <option value="1">Barranco</option>
+                <option value="2">San Isidro</option>
+                <option value="3">La Molina</option>
+                <option value="4">San Borja</option>
+                <option value="5">Comas</option>
+                <option value="6">Callao</option>
+            </select><br>
+            <label>Sexo : </label><input type="radio" name="sexo" id="rbM"><label for="rbM" >Masculino</label><input type="radio" name="sexo" id="rbF"><label for="rbF">Femenino</label><br>
+            <label for="fulfoto">Fotografia : </label><input type="file" name="fulfoto" id="fulfoto"><br>
+            <label for="tatObservaciones">Observaciones : </label><textarea name="tatObservaciones" id="" cols="30" rows="10" required></textarea><br>
+            <label>Estado : </label><input type="checkbox" name="chkEst" id="chkEst" required><label for="chkEst">Habilitado</label><br>
+        </fieldset>
+        <fieldset>
+            <legend>Datos del Curso</legend>
+            <label for="cbociclo">Ciclo : </label>
+            <select name="cbociclo" id="cbociclo" requiered>
+                <option value="0">Seleccione un Ciclo</option>
+                <option value="1">I Ciclo</option>
+                <option value="2">IICiclo</option>
+                <option value="3">III Ciclo</option>
+                <option value="4">IV Ciclo</option>
+                <option value="5">V Ciclo</option>
+                <option value="6">VI Ciclo</option>
+            </select><br>
+            <label>Turno : </label><input type="radio" name="turno" id="rbM" required><label for="rbM" >Mañana</label> <input type="radio" name="turno" id="rbT"><label for="rbT">Tarde</label><input type="radio" name="turno" id="rbN"><label for="rbN">Noche</label><br>
+            <label for="cboSeccion">Seccion : </label>
+            <select name="cboSeccion" id="cboSeccion" required>
+                <option value="0">Seleccione una Seccion</option>
+                <option value="1">A</option>
+                <option value="2">B</option>
+                <option value="3">C</option>
+                <option value="4">D</option>
+                <option value="5">E</option>
+                <option value="6">F</option>
+            </select><br>
+        </fieldset>
+        <button type="submit">Registrar</button>
+        <button type="button">Actualizar</button>
+        <button type="reset">Borrar</button>
+    </form>
+    
+</body>
+</html>
