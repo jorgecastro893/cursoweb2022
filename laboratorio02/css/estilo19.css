@@ -1,0 +1,48 @@
+.contenedor{
+    background-color: gainsboro;
+}
+a.vinculo1:link{
+    color:violet;
+}
+a.vinculo1:visited{
+    color:red;
+}
+a.vinculo1:active{
+    color: cornflowerblue;
+}
+a.vinculo1:hover{
+    color: greenyellow;
+}
+a.vinculo2:link{
+    text-decoration: none;
+}
+a.vinculo2:hover{
+    text-decoration: none;
+}
+a.vinculo2:visited{
+    text-decoration: none;
+}
+a.vinculo2:active{
+    text-decoration: none;
+}
+a.vinculo3:link,a.vinculo3:visited{
+    background-color: bisque;
+    color: black;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+}
+a.vinculo3:hover,a.vinculo3:active{
+    background-color: skyblue;
+}
+a.vinculo4:link,a.vinculo4:visited{
+    background-color: royalblue;
+    color: black;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+}
+a.vinculo4:hover,a.vinculo4:active{
+    background-color: goldenrod;
+}

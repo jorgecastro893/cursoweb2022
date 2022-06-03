@@ -1,0 +1,124 @@
+*{
+    padding: 20px;
+}
+body{
+    background-color: coral;
+}
+.contenedor{
+    background-color: white;
+}
+.parrafocolor{
+    color: yellowgreen;
+    border: solid;
+    border-color: red;
+}
+.parrafoderecha{
+    text-align: right;
+    border: solid;
+    border-color: mediumorchid;
+}
+.parrafoizquierda{
+    text-align: left;
+    border: solid;
+    border-color: beige;
+}
+.parrafocentro{
+    text-align: center;
+    border: solid;
+    border-color: navy;
+}
+.parrafojustificado{
+    text-align: justify;
+    border: solid;
+    border-color: magenta;
+}
+.parrafosuperior{
+    vertical-align: top;
+    border: solid;
+    border-color: gainsboro;
+}
+.parrafoinferior{
+    vertical-align: bottom;
+    border: solid;
+    border-color: firebrick;
+}
+.parrafomedio{
+    vertical-align: middle;
+    border: solid;
+    border-color: mediumspringgreen;
+}
+.parrafosobrelinea{
+    text-decoration: overline;
+    border: solid;
+    border-color: brown;
+}
+.parrafosubrayado{
+    text-decoration: underline;
+    border: solid;
+    border-color: black;
+}
+.parrafotachado{
+    text-decoration: line-through;
+    border: solid;
+    border-color: cadetblue;
+}
+.parrafomayuscula{
+    text-transform: uppercase;
+    border: solid;
+    border-color: aquamarine;
+}
+.parrafominuscula{
+    text-transform: lowercase;
+    border: solid;
+    border-color: chocolate;
+}
+.parrafonombrepropio{
+    text-transform: capitalize;
+    border: solid;
+    border-color: darkorange;
+}
+.parrafosangria{
+    text-indent: 10px;
+    border: solid;
+    border-color: darkcyan;
+}
+.parrafoespacio{
+    letter-spacing: 15px;
+    border: solid;
+    border-color: red;
+}
+.parrafocomprimmido{
+    letter-spacing: -3px;
+    border: solid;
+    border-color: yellow;
+}
+.parrafoespaciolinea{
+    line-height: 2px;
+    border: solid;
+    border-color: darkgreen;
+}
+.parrafolineaamplio{
+    line-height: 7px;
+    border: solid;
+    border-color: violet;
+}
+.parrafoletraespacio{
+    word-spacing: 15px;
+    border: solid;
+    border-color: hotpink;
+}
+.parrafoletracomprimido{
+    word-spacing: -3px;
+    border: solid;
+    border-color: khaki;
+}
+.parrafosombra{
+    text-shadow: 2px 3px red;
+    border: solid;
+    border-color: tan;
+}
+.parrafosombradifuminado{
+    text-shadow: 2px 3px 5px red;
+    border: solid;
+    border-color: blue;
+}

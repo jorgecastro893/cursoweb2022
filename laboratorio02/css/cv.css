@@ -1,0 +1,30 @@
+body{
+    background-color: cornflowerblue;
+}
+div{
+    background-color: white;
+    border: 1px solid black;
+    padding: 12px;
+    width: 60%;
+    margin: 0 auto;
+}
+fieldset{
+    margin-bottom: 12px;
+}
+legend{
+    background-color: bisque;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+img{
+    border-radius: 12%;
+    margin-bottom: 12px;
+    float: left;
+}
+h1{
+color: black;
+text-align:center;
+font-size: 50px;
+}

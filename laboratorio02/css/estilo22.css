@@ -1,0 +1,124 @@
+body{
+    background-color: beige;
+}
+.contenedor{
+    background-color: aquamarine;
+}
+li{
+    display: inline;
+}
+span{
+    display:block;
+}
+a{
+    display:block;
+}
+p span{
+    display: inline-block;
+    width:25%;
+}
+.elementolista p{
+    display: inline-block;
+    margin-left: 30px;
+}
+.tablacontenedor{
+    display: table;
+    border-spacing: 10px;
+}
+.contenido{
+    display: table-row;
+}
+.secundario, .principal .lateral{
+    display: table-cell;
+}
+.flexible{
+    display: flex;
+    margin-bottom: 10px;
+    background-color: gainsboro;
+}
+.flexible p{
+    width: 25%;
+    border: black 1px solid;
+    margin: 2px;
+}
+.flexible2{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: greenyellow;
+}
+.flexible2 p{
+    width: 200px;
+    border: black 1px solid;
+    margin: 2px;
+}
+.flexible3{
+    display: flex;
+    flex-direction: column;
+    background-color: chocolate;
+}
+.flexible3 p{
+    width: 200px;
+    border: white 1px solid;
+    margin: 2px;
+}
+.flexible4{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: floralwhite;
+}
+.flexible4 p{
+    width: 200px;
+    border: black 1px solid;
+    margin: 2px;
+}
+
+.flexible5{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: orange;
+}
+.flexible5 p{
+    width: 200px;
+    border: black 1px solid;
+    margin: 2px
+}
+.flexible6{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    background-color: cornflowerblue;
+}
+.flexible6 p{
+    width: 200px;
+    border: black 1px solid;
+    margin: 2px
+}
+.flexible7{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: magenta;
+}
+.flexible7 p{
+    width: 200px;
+    border: bl  ack 1px solid;
+    margin: 2px
+}
+.flexible8{
+    display: flex;
+    flex-flow: row-reverse wrap;
+    background-color: yellow;
+}
+.flexible8 p{
+    width: 200px;
+    border: black 1px solid;
+    margin: 2px
+}
+.flexible9{
+    display: flex;
+    flex-flow: wrap row-reverse;
+    background-color: rosybrown;
+}
+.flexible9 p{
+    width: 200px;
+    border: black 1px solid;
+    margin: 2px
+}

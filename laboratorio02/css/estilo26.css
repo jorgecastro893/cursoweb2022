@@ -1,0 +1,27 @@
+body{
+    background-color: beige;
+}
+.contenedor{
+    background-color: aquamarine;
+}
+img{
+    float: right;
+}
+.caja1{
+    float: right;
+    padding: 20px;
+    background-color: red;
+}
+.caja2{
+    float: right;
+    padding: 20px;
+    background-color: white;
+}
+.caja3{
+    float: right;
+    padding: 20px;
+    background-color: red;
+}
+ul p{
+    font-size: 60px;
+}

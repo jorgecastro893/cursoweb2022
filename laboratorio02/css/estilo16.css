@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2? family=Roboto+Mono:ital,wght@1,700&family=Zen+Maru+Gothic:wght@300&display=swap');
+
+body{
+    background-color: beige;
+}
+.contenedor{
+    background-color: white;
+    margin: auto;
+}
+.fuente1{
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+.fuente2{
+    font-family: 'Zen Maru Gothic', sans-serif;
+    background-color: cornsilk;
+}
+.fuente3{
+    font-style: italic;
+}
+.fuente4{
+    font-style: oblique;
+}
+.fuente5{
+    font-style: normal;
+}
+.fuente6{
+    font-weight: bold;
+}
+.fuente7{
+    font-weight: bolder;
+}
+.fuente8{
+    font-style: small;
+}
+.fuente9{
+    font-variant: small-caps;
+}
+.fuente10{
+    font-size: 25px;
+}
+.fuente11{
+    font-variant: normal;
+}
+@font-face {
+    font-family: "ZenMaru";
+    src: url("/fonts/ZenMaruGothic-Black.ttf");
+}
+@font-face {
+    font-family: "RadioCanada";
+    src: url("/fonts/RadioCanada-Light.ttf")
+}
+@font-face {
+    font-family: "Spiderman";
+    src: url("/fonts/TheAmazingSpider-Man.ttf");
+}
+@font-face {
+    font-family: "Like";
+    src: url("/fonts/LikeEat.ttf");
+}
+.fuente12{
+    font-family: "ZenMaru";
+}
+.fuente13{
+    font-family: "RadioCanada";
+}
+.fuente14{
+    font-family: "Spiderman";
+}
+.fuente15{
+    font-family: "Like";
+}
