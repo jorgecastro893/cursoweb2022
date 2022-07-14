@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <script type="text/javascript">
+
+        var estaciones=["verano","otoño","invierno","primavera"];
+
+        document.write("El tamaño del vector es:" +estaciones.length+"<br>");
+
+        document.write("El primer valor del vector es:" +estaciones[0]+"<br>")
+
+
+
+        for(var i=0;i<estaciones.length;i++){
+            document.write("El valor" +(i+1)+" del vector es:" +estaciones[i]+"<br>");
+        }
+
+
+
+        estaciones.push("Ya no hay más estaciones");
+        document.write("El tamaño del vector es:" +estaciones.length+"<br>")
+
+        for(var i=0;i<estaciones.length;i++){
+            document.write("El valor" +(i+1)+" del vector es:" +estaciones[i]+"<br>");
+        }
+
+        estaciones.pop();
+        document.write("El tamaño del vector es" +estaciones.length+"<br>");
+        for(var i=0;i<estaciones.length;i++){
+            document.write("El valor" +(i+1)+" del vector es:" +estaciones[i]+"<br>");
+        }
+
+        estaciones.shift();
+        document.write("El tamaño del vector es:" +estaciones.length+"<br>");
+        for(var i=0;i<estaciones.length;i++){
+            document.write("El valor" +(i+1)+" del vector es:" +estaciones[i]+"<br>");
+        }
+        
+
+        var indice=0;
+        indice=estaciones.indexOf("otoño");
+        document.write("El indice de otoño es:" +indice+"<br>");
+
+        var indice=0;
+
+        indice=estaciones.indexOf("primavera");
+        estaciones.splice(indice,1);
+        document.write("El tamaño del vector es: " +estaciones.length+"<br>")
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

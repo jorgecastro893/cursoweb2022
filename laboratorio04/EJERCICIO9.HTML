@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript 9</title>
+    <script type="text/javascript">
+
+        // La Bodega don Pepito hace un descuento del 15% sobre el total de ventas. 
+
+        // // Cuantas variables necesito?
+        // 6
+        // // Que tipos de datos necesito?
+        // Numeros reales y text
+        // // Como se llamarian las variables?
+        // n1, n2, p1, p2, sub, des, tot
+        // // Cual seria la operación?
+        // Suma, multiplicacion
+
+        // Definiendo variables
+
+        var n1, n2, p1=0, p2=0, sub=0, des=0, tot=0;
+
+        n1=parseFloat(prompt("Ingrese el producto 1"));
+        n2=parseFloat(prompt("Ingrese el producto 2"));
+        p1=parseFloat(prompt("Ingrese el precio del producto 1"));
+        p2=parseFloat(prompt("Ingrese el precio del producto 2"));
+
+        sub=p1+p2;
+        des=sub*0.15;
+        tot=sub-des
+
+        document.write("El subtotal es:" +sub +"<br>")
+        document.write("El descuento es:" +des +"<br>")
+        document.write("Tu totoal a pagar es:" +tot +"<br>")
+
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Pagina 5</title>
+    <script type="text/javascript">
+
+        var pre=0, can=0, sub=0, cat=0, des=0, tot=0;
+        
+        pre=parseFloat(prompt("Ingrese el precio del producto"));
+        can=parseInt(prompt("Ingrese la cantidad de productos"));
+        cat=prompt("Ingresa la categoria [a] [b] [c] [d]");
+
+        sub=pre*can;
+        if(cat=="a"){
+            des=sub*0.03;
+        }else{
+            if(cat=="b"){
+                des=sub*0.05;
+            }else{
+                if(cat=="c"){
+                    des=sub*0.07;
+                }else{
+                    if(cat=="d"){
+                        des=sub*0.09;
+                    }else{
+                        des=0;
+                    }
+                }
+            }
+        }
+        tot=sub-des;
+        document.write("El subtotal es:" +sub+"<br>");
+        document.write("El descuento es:" +des+"<br>");
+        document.write("El total es:" +tot+"<br>"),
+        document.write("<hr>");
+
+        var sb=0, bon=0, des=0, sf=0, cat=0;
+
+        sb=parseFloat(prompt("Ingrese el sueldo basicoi:"));
+        cat=parseInt(prompt("Ingrese la categoria [1] o [2] o [3]"));
+
+        if(cat==1){
+            bon=sb*0.07;
+            des=sb*0.09;
+        }else{
+            if(cat==2){
+                bon=sb*0.09;
+                des=sb*0.07;
+            }else{
+                if(cat==3){
+                    bon=sb*0.11;
+                    des=sb*0.09;
+                }else{
+                    bon=0;
+                    des=0;
+                }
+            }
+        }
+        sf=sb+bon-des;
+
+        document.write("El sueldo basico es:" +sb+"<br>");
+        document.write("El bonificacion es:" +bon+"<br>");
+        document.write("El descuento es:" +des+"<br>");
+        document.write("El sueldo final es:" +sf+"<br>"),
+        document.write("<hr>");
+
+    </script>
+
+
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+
+    <script type="text/javascript" > 
+
+    // Ejercicio 1
+
+    var nom="", cont=1;
+
+nom=prompt("Ingresa tu nombre:")
+
+while(cont<=5){
+    document.write("Hola como estas "+nom+"<br>");
+    cont++;
+}
+
+cont=1;
+
+do{
+    document.write("Hola como estas "+nom+"<br>");
+    cont++;
+}while(cont<=5);
+
+cont=1;
+
+for(i=1;cont<=5;cont++){
+    document.write("Hola como estas "+nom+"<br>");
+}
+document.write("<hr>");
+
+// Ejercicio 2
+
+var cont=1, can=0;
+
+can=parseInt(prompt("Ingresa la cantidad de numeros"))
+while(cont<=can){
+    document.write(cont+"<br>")
+    cont++;
+}
+
+cont=1
+
+do{
+    document.write(cont+"<br>")
+    cont++;
+}while(cont<=can);
+
+cont=1
+
+for(cont;cont<=can;cont++){
+    document.write(cont+"<br>")
+}
+
+// Ejercicio 3
+
+var cont=1, sum=0; 
+
+while(cont<=10)
+sum=sum+cont;
+cont=cont+1;
+document.write("La suma de los 10 valores es:" +sum+"<br>");
+
+cont=1;
+sum=0;
+
+do{
+    sum=sum+cont;
+    cont++;
+}while(cont<=10);
+document.write("La suma de los 10 valores es:" +sum+"<br>");
+
+cont=1;
+sum=0;
+
+for(cont;cont<=10;cont++){
+    sum=sum+cont;
+}
+document.write("La suma de los 10 valores es:" +sum+"<br>");
+
+
+// Ejercicio 4
+
+var cont=1, sum=0, num=0;
+
+num=parseInt(prompt("Ingresa la cantidad de numeros que quieras"))
+while(cont<=num){
+    sum=sum+cont;
+    cont=cont+1
+}
+document.write("La suma de los 10 valores es:" +sum+"<br>");
+
+cont=1
+sum=0;
+
+do{
+    sum=sum+cont;
+    cont++;
+}while(cont<=num);
+document.write("La suma de los 10 valores es:" +sum+"<br>");
+
+cont=1
+sum=0
+
+for(cont;cont<=can;cont++){
+    sum=sum+cont;
+}
+document.write("La suma de los 10 valores es:" +sum+"<br>");
+document.write("<hr>");
+
+// Ejercicio 5
+
+var cont=0, can=0, num=0;
+
+can=parseInt(prompt("Ingresa la cantidad de numeros"))
+num=parseInt(prompt("Ingresa el numero de la tabla"))
+
+while(cont<=can){
+    document.write(num+"X"+cont+"=" (num*cont)+"<br>")
+    cont++;
+}
+
+cont=1;
+
+do{
+    document.write(num+"X"+cont+"=" (num*cont)+"<br>")
+    cont++;
+}while(cont<=can);
+
+cont=1;
+
+for(cont;cont<=can;cont++){
+    document.write(num+"X"+cont+"=" (num*cont)+"<br>")
+}
+document.write("<hr>"); 
+    </script>
+
+        
+</head>
+<body>
+    
+</body>
+</html>

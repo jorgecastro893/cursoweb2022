@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript 6</title>
+    <script type="text/javascript">
+
+        // Calcular el descuento y el monto a pagar por un medicamento cualquiera en una farmacia si todos los medicamentos tienen un descuento del 35%. 
+
+
+        // // Cuantas variables necesito?
+        // 4
+        // // Que tipos de datos necesito?
+        // Numeros Reales y texto
+        // // Como se llamarian las variables?
+        // med, pre, des,  tot
+        // // Cual seria la operación?
+        // Multiplicacion
+
+        // Definiendo variables
+
+        var med="", pre=0, des=0, tot=0;
+
+        med=parseFloat(prompt("Ingrese el medicamento"));
+        pre=parseFloat(prompt("Ingrese el precio"));
+
+        des=pre*0.35;
+        tot=pre-des;
+
+        document.write("El precio es:" +pre +"<br>")
+        document.write("El descuento es:" +des +"<br>")
+        document.write("El total a pagar es:" +tot +"<br>")
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

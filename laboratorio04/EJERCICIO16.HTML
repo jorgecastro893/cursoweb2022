@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <script type="text/javascript">
+
+        // Elaborar un programa que me simule una clave de acceso. Si el usuario es:”ADMIN” y la clave “123456” mostrara el mensaje “ACCESO PERMITIDO” caso contrario mostrar el mensaje “ACCESO DENEGADO”. 
+
+        // // Cuantas variables necesito?
+        // 3
+        // // Que tipos de datos necesito?
+        // Texto
+        // // Como se llamarian las variables?
+        // adm, pas, men
+        // // Cual seria la operación?
+        // 
+
+        // Definiendo variables
+
+        var adm="", pas="", men=""; 
+
+        adm=parseInt(prompt("Ingrese su usuario"));
+        pas=parseInt(prompt("Ingrese la contraseña"));
+
+        if(adm=="ADMIN" && pas=="123456" ){
+            men="Acceso permitido";
+        }else{
+            men="Acceso denegado";
+        } 
+
+        document.write("Usted tiene:"+"<br>")
+        document.write(men +"<br>")
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

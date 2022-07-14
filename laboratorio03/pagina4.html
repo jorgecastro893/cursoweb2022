@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Pagina 4</title>
+    <script>
+        var b=0, h=0, area=0, men="";
+        b=parseFloat(prompt("Ingrese la base del triangulo"))
+        h=parseFloat(prompt("Ingrese la altura del triangulo"))
+
+        area=(b*h)/2;
+        if(area>50){
+            men="Es un triangulo grande";
+        }else{
+            men="Es un triangulo pequeño";
+        }
+        document.write("El area del triangulo es:" +area + "<br>")
+        document.write(men+"<br>")
+        document.write("<hr>")
+
+        var pp=0, ct=0, sb=0, des=0, tip=0, igv=0, tot=0;
+
+        pp=parseFloat(prompt("Ingrese el precio del producto"));
+        ct=parseInt(prompt("Ingrese la cantidad de productos"));
+        tip=prompt("Ingresa[f] o [b]Boleta");
+
+        sb=pp*ct;
+        if(sb>1000){
+            des=sb*0.05;
+        }else{
+            des=sb*0.02;
+        }
+        if(tip=="f"){
+            igv=sb*0.18;
+        }else{
+            igv=0;
+        }
+        tot=sb-des+igv;
+
+        document.write("El subtotal es:" +sb+"<br>");
+        document.write("El descuento es:" +des+"<br>");
+        document.write("El igv es:" +igv+"<br>");
+        document.write("El total es:" +tot+"<br>"),
+        document.write("<hr>");
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

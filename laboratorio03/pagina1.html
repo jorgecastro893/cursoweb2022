@@ -32,6 +32,42 @@
         n4=parseFloat(prompt("Ingrese la nota 4:"));
         prom=(n1+n2+n3+n4)/4;
         document.write("El promedio es: "+prom+ "<br>");
+
+
+
+        var sb, bon, des, sf;
+        sb=0, bon=0, des=0, sf=0;
+
+        sb=1000
+
+        bon=sb*0.07;
+        des=sb*0.05;
+        sf=sb+bon-des;
+
+        alert("El sueldo basico es:" +sb);
+        alert("La bonificacion es:" +bon);
+        alert("El descuento es:" +des);
+        alert("El sueldo final es:" +sf);
+
+        document.write("El sueldo basico es:" +sb+"<br>")
+        document.write("La bonificacion es:" +bon+"<br>")
+        document.write("El descuento es:" +des+"<br>")
+        document.write("El sueldo final es:" +sf+"<br>")
+
+        var can, pre, sbt, igv, tot;
+        can=0, pre=0, sbt=0, igv=0, tot=0;
+
+        pre=125.80
+        can=10;
+
+        sbt=pre*can;
+        igv=sbt*0.18;
+        tot=sbt+igv;
+
+        alert("El subtotal es:" +sbt);
+        alert("El IGV total es:" +igv);
+        document.write("El precio total es:" +tot+"<br>")
+
     </script>
 </head>
 <body>

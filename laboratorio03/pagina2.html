@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Pagina 2</title>
+</head>
+<body>
+    <script type="text/javascript">
+        
+        var n1=0, n2=0, sum=0;
+        n1=parseInt(prompt("Ingrese el numero 1:"));
+        n2=parseInt(prompt("Ingrese el numero 2:"));
+
+        sum=n1+n2;
+
+        document.write("La suma es: "+sum)
+        document.write("<hr>")
+
+        var n1=0, n2=0, n3=0, n4=0;
+        n1=parseFloat(prompt("Ingrese la nota 1:"));
+        n2=parseFloat(prompt("Ingrese la nota 2:"));
+        n3=parseFloat(prompt("Ingrese la nota 3:"));
+        n4=parseFloat(prompt("Ingrese la nota 4:"));
+        prom=(n1+n2+n3+n4)/4;
+        document.write("El promedio es: "+prom+ "<br>");
+
+        var nom;
+        nom="";
+        nom="Jorge";
+        alert("Hola como estas " + nom);
+        document.write("Hola como estas " + nom)+ "<br>";
+        document.write("<hr>")
+
+        var sb=0, bon=0, des=0, sf=0;
+        sb=parseFloat(prompt("Ingrese el sueldo basico"));
+        bon=sb*0.07;
+        des=sb*0.04;
+        sf=sb+bon-des;
+        document.write("El sueldo basico es:" +sb+"<br>")
+        document.write("La bonificacion es:" +bon+"<br>")
+        document.write("El descuento es:" +des+"<br>")
+        document.write("El sueldo final es:" +sf+"<br>")
+        document.write("<hr>")
+
+        var pp=0, can=0, sub=0, igv=0, pf=0;
+        pp=parseFloat(prompt("Ingrese el precio del producto"));
+        can=parseFloat(prompt("Ingrese la cantidad"));
+
+        sub=pp*can;
+        igv=sub*0.18;
+        pf=sub+igv;
+
+        document.write("El subtotoal es:" +sub+"<br>")
+        document.write("El igv es:" +igv+"<br>")
+        document.write("El precio final es:" +pf+"<br>")
+        document.write("<hr>")
+
+        var ht=0, cph=0, sb=0, bon=0, des=0, sf=0;
+        ht=parseFloat(prompt("Ingrese las horas trabajadas"));
+        cph=parseFloat(prompt("Ingrese el costo por hora"));
+        sb=ht*cph;
+        bon=sb*0.07;
+        des=sb*0,04;
+        sf=sb+bon-des;
+        document.write("El sueldo basico es:" +sb+"<br>")
+        document.write("La bonificacion es:" +bon+"<br>")
+        document.write("El descuento es:" +des+"<br>")
+        document.write("El sueldo final es:" +sf+"<br>")
+        document.write("<hr>")
+        
+
+
+    </script>
+</body>
+</html>

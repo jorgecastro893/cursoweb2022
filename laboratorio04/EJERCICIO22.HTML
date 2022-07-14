@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <script type="text/javascript">
+
+        // Ingrese el monto a pagar por la compra de varios productos. A dicho monto ingresado deberá agregarle el Impuesto General a las Ventas (I.G.V.). En caso de que el monto a pagar –incluido I.G.V.- sea mayor a S/. 500.00 nuevos soles, no se aplicará un descuento de 8 % sino de 2 %. 
+
+        // // Cuantas variables necesito?
+        // 9
+        // // Que tipos de datos necesito?
+        // Numeros Reales
+        // // Como se llamarian las variables?
+        // 
+        // // Cual seria la operación?
+        // Suma, resta, multiplicacion
+
+        // Definiendo variables
+
+        var n1, n2, p1=0, p2=0,pf=0, sub=0, igv=0, des=0, tot=0;
+
+        n1=parseFloat(prompt("Ingrese el producto 1"));
+        n2=parseFloat(prompt("Ingrese el producto 2"));
+        p1=parseFloat(prompt("Ingrese el precio del producto 1"));
+        p2=parseFloat(prompt("Ingrese el precio del producto 2"));
+
+        pf=p1+p2;
+        igv=pf*0.18;
+        sub=pf+igv;
+
+
+        if(sub=>500){
+            des=sub*0.02;
+        }else{
+            des=sub*0.08;
+        }
+
+        tot=sub-des;
+
+        document.write("En costo final es:" +tot  +"<br>")
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

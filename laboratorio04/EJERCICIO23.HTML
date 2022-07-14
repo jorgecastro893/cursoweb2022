@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <script type="text/javascript">
+
+        // Calcular el sueldo de un trabajador conociendo el número de horas trabajadas y su tarifa horaria, sabiendo que se debe aumentar el 20 % del sueldo por bonificación familiar si este es mayor de S/. 2400 nuevos soles, y 10 % en caso contrario. Mostrar el sueldo y el aumento respectivo.
+
+        // // Cuantas variables necesito?
+        // 3
+        // // Que tipos de datos necesito?
+        // Numeros Enteros
+        // // Como se llamarian las variables?
+        // n1, n2, res
+        // // Cual seria la operación?
+        // 
+
+        // Definiendo variables
+
+        var ht=0, tar=0, sue=0, bon=0, sf;
+
+        ht=parseFloat(prompt("Ingrese las horas trabajadas"));
+        tar=parseFloat(prompt("Ingrese su tarifa horaria"));
+
+        sue=ht*tar;
+
+        if(sue>2400){
+            bon=sue*0.2;
+        }else{
+            bon=sue*0.1;
+        }
+
+    sf=sue+bon;
+
+    document.write("En sueldo total es:" +sf  +"<br>")
+    document.write("En aumento es:" +bon  +"<br>")
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

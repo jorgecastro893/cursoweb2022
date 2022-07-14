@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <script type="text/javascript">
+
+        // Calcular y mostrar la nota final de un alumno en base a tres notas ingresadas. Si la nota final es menor a catorce se deberá mostrar el mensaje “Desaprobado”; caso contrario, se mostrará el mensaje “Aprobado”. Considerar: nf = (n1 + n2 + n3) / 3.  
+
+        // // Cuantas variables necesito?
+        // 6
+        // // Que tipos de datos necesito?
+        // Numeros Reales
+        // // Como se llamarian las variables?
+        // n1, n2, n3, nf
+        // // Cual seria la operación?
+        // Suma y division
+
+        // Definiendo variables
+
+        var n1=0, n2=0, n3=0, nf=0, men="";
+
+        n1=parseFloat(prompt("Ingrese la nota 1"));
+        n2=parseFloat(prompt("Ingrese la nota 2"));
+        n3=parseFloat(prompt("Ingrese la nota 3"));
+
+        nf=(n1+n2+n3)/3;
+
+        
+        if(nf>14){
+            men="Usted aprobo";
+        }else{
+            men="Usted desaprobo";
+        } 
+        document.write("Su promedio es :"+nf +"<br>")
+        document.write(men +"<br>")
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

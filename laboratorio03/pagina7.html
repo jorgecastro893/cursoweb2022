@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <script type="text/javascript">
+    
+    
+    var sb=0, bon=0, des=0, sf=0, cat=0;
+
+        sb=parseFloat(prompt("Ingrese el sueldo basico:"));
+        cat=parseInt(prompt("Ingresa la categoria:"));
+
+        switch(cat){
+            case 1:
+                bon=sb*0.07;
+                des=sb*0.05;
+                break;
+            case 2:
+                bon=sb*0.09;
+                des=sb*0.07;
+                break;
+            case 3:
+                bon=sb*0.11;
+                des=sb*0.09;
+                break;
+            default:
+                bon=0
+                des=0
+                break;
+        }
+
+        sf=sb+bon-des;
+
+        document.write("El sueldo basico es:" +sb+"<br>")
+        document.write("La bonificacion es:" +bon+"<br>")
+        document.write("El descuento es:" +des+"<br>")
+        document.write("El sueldo final es:" +sf+"<br>")
+        document.write("<hr>");
+
+        var pre=0, can=0, cat=0, des=0, sbt=0, tot=0;
+
+        pre=parseFloat(prompt("Ingrese el precio del producto"));
+        can=parseInt(prompt("Ingrese la cantidad de productos"));
+        cat=prompt("Ingresa la categoria [a] [b] [c] [d]");
+
+        sbt=pre*can;
+
+        switch(cat){
+            case "a":
+                des=sbt*0.03;
+                break;
+            case "b":
+                des=sbt*0.05;
+                break;
+            case "c":
+                des=sbt*0.07;
+                break;
+            case "d":
+                des=sbt*0.09;
+                break;
+            default:
+                des=0
+                break;
+        }
+
+        tot=sbt-des;
+
+        document.write("El subtotal es:" +sbt+"<br>");
+        document.write("El descuento es:" +des+"<br>");
+        document.write("El total es:" +tot+"<br>"),
+        document.write("<hr>");
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

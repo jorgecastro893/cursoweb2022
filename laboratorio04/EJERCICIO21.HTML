@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <script type="text/javascript">
+
+        // Dado la duración (en minutos) de una llamada telefónica, calcular su costo, de la siguiente manera: Hasta 5 min el costo es 0.90.Por encima de 5 min el costo es 0.90+0.20 por cada minuto adicional a los 5 primeros min. 
+
+        // // Cuantas variables necesito?
+        // 5
+        // // Que tipos de datos necesito?
+        // Numeros Reales
+        // // Como se llamarian las variables?
+        // n1, n2, res
+        // // Cual seria la operación?
+        // Suma
+
+        // Definiendo variables
+
+        var dur=0, cos=0, ad=0, tot=0;
+
+        dur=parseFloat(prompt("Ingrese la duracion de la llamada"));
+        
+        cos=0.90;
+        ad=0.20;
+
+        if (dur<=5){
+            cos=0.90;
+        }else{
+            if (dur=6){
+                cos= 0.90 + 0.20;
+            }else{
+                if (dur=7){
+                    cost=1.10 + 0.20;
+                }
+
+            }
+        }
+
+        document.write("En costo final es:" +cos  +"<br>")
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript 15</title>
+    <script type="text/javascript">
+
+        //  La entidad Financiera MHM PRESTAMOS TODITITO, compromete a sus clientes a depositar una cuota mensual durante un año. Al finalizar este periodo, dicha entidad le hace un préstamo hasta 5 veces el monto ahorrado y le cobra el interés del 2% mensual; calcular el total ahorrado y el total de préstamo. 
+
+        // // Cuantas variables necesito?
+        // 5
+        // // Que tipos de datos necesito?
+        // Numeros Reales
+        // // Como se llamarian las variables?
+        // cm, ca, prs, int, tot
+        // // Cual seria la operación?
+        // suma, multiplicacion
+
+        // Definiendo variables
+
+        var cm=0, ca=0, prs=0, int=0, tot=0;
+        cm=parseFloat(prompt("Ingrese la cuota mensual"));
+        int=cm*0.02;
+        ca=(cm+int)*12;
+
+        prs=ca*5;
+
+        document.write("La cuota mensual es:" +cm +"<br>")
+        document.write("El interes es:" +int +"<br>")
+        document.write("El ahorro total es:" +ca +"<br>")
+        document.write("El prestamo es igual es:" +prs +"<br>")
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
